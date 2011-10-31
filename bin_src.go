@@ -33,15 +33,13 @@ func main() {
 	fmt.Println("This is the list over which we conduct binary search \n", 
 				flag.Args())
 	input_list := make([]int, flag.NArg())
-	var list_i int
+	var list_i, i int
 	for j := 0; j < flag.NArg(); j++ { 	
 		list_i = j
 		input_list[list_i], _ = strconv.Atoi(flag.Arg(j))
 	}
 	fmt.Println("Please enter the key you want to search for")
-	var i int
     	fmt.Scan(&i)
-    	fmt.Println("read number", i, "from stdin")
 	if index := binSearch(input_list,i); index == -1 {
     		fmt.Println("Key", i, "was not found in the list")
 	} else {
