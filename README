@@ -1,14 +1,17 @@
 Implementing some basic algorithms in go-lang
 
-Compilation Steps:
------------------
+Steps:
+------
 1. Fetch and then build go src using steps explained here
 	http://golang.org/doc/install.html#fetch
 	http://golang.org/doc/install.html#install
+
 2. Compiling a file named file.go
 	6g file.go
+
 3. Linking:
 	6l file.6
+
 4. Running:
 	./6.out
 
