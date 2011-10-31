@@ -5,8 +5,11 @@ Compilation Steps:
 1. Fetch and then build go src using steps explained here
 	http://golang.org/doc/install.html#fetch
 	http://golang.org/doc/install.html#install
-2. 6g file.go
-3. 6l file.go
-4. ./6.out
+2. Compiling a file named file.go
+	6g file.go
+3. Linking:
+	6l file.6
+4. Running:
+	./6.out
 
-PS: Platform this code runs and works: OS X 10.6.2
+PS: Runs and tested on: Mac OS X 10.6.2
