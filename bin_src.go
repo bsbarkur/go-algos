@@ -2,6 +2,8 @@
  * Binary search
  * run it as ./bin_src <input_list>
  * where <input_list> is the array over which we do binary search
+ * Note: The <input_list> should be input so that numbers are in
+ * ascending order, for e.g: 1 2 3 4 7 9 10 ...
  */
 package main
 
