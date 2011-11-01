@@ -18,7 +18,7 @@ func reverse_str(orig_str string) string {
 		// Swap :O
 		ls[i],ls[str_len-i-1] = ls[str_len-i-1],ls[i]
 	}
-    	return string(ls) // Inbuild function to convert to string
+    	return string(ls) // In-built function to convert to string
 }
 
 func main() {
